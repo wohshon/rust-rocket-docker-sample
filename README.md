@@ -1,6 +1,18 @@
 # rust-rocket-docker-sample
 
-sample rocket web app 
+Sample rocket web app 
+
+cargo run 
+
+- build as binary
+
+```
+cargo build --dev 
+or 
+cargo build --release 
+```
+
+- deploy as container
 
 ```
 docker build -t <repo/image> .
