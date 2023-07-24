@@ -17,5 +17,5 @@ cargo build --release
 ```
 docker build -t <repo/image> .
 
-docker run --network=host -p8000:8000 -d <repo/image>
+docker run -p8000:8000 -d <repo/image>
 ```
